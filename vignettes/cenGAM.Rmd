@@ -1,0 +1,41 @@
+---
+title: "Fitting generalized additive models to censored response variables"
+author: "Vignette Author"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+<style>
+pre {
+  overflow-x: auto;
+}
+pre code {
+  word-wrap: normal;
+  white-space: pre;
+}
+</style>
+
+```{r global_options, include=FALSE}
+options(width = 999)
+knitr::opts_chunk$set(fig.align='center', fig.width=5.5, fig.height=4.5, message=FALSE)
+```
+
+## Introduction
+
+Censored data are common in ...
+
+## Getting started
+
+...
+
+```{r loading, echo=TRUE, eval=TRUE, results='hide'}
+library(cenGAM)
+```
+
+## Fitting a censored GAM
+
+...
